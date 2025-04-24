@@ -26,19 +26,6 @@ To run the application, simply execute:
 ```bash
 python app.py
 ```
-
-The application will:
-1. Connect to the Groq API
-2. Create an MCP agent
-3. Prompt you for your question or request
-4. Process your input and display the AI's response
-
-You can ask anything you'd like, for example:
-- "Tell me some jokes"
-- "What's the weather like?"
-- "Give me some recipe ideas"
-- "Help me with my homework"
-
 To exit the application, press Ctrl+C at any time.
 
 ## Error Handling
