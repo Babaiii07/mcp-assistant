@@ -9,7 +9,7 @@ This is an interactive AI-powered application that uses the Groq LLM and MCP age
 2. Create a virtual environment (recommended):
 ```bash
 python -m venv venv
-source venv/bin/activate  # On Windows use: venv\Scripts\activate
+source venv/bin/activate  
 ```
 
 3. Install the required dependencies:
@@ -18,9 +18,7 @@ pip install -r requirements.txt
 ```
 
 4. Create a `.env` file in the root directory and add your Groq API key:
-```
-GROQ_API_KEY=your_api_key_here
-```
+
 
 ## Running the Application
 

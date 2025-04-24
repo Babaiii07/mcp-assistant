@@ -46,14 +46,11 @@ def get_user_prompt():
 async def main():
     setup_environment()
     
-    # Open YouTube
     await open_youtube()
     
-    # Create the agent
     agent = await create_agent()
     
     try:
-        # Get prompt from user
         prompt = get_user_prompt()
         if not prompt:
             print("Error: Empty prompt provided")
