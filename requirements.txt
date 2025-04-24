@@ -1,0 +1,8 @@
+python-dotenv
+langgraph
+langchain-groq
+langchain-core
+langchain-huggingface
+numpy 
+pandas 
+mcp-use
